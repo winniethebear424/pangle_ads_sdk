@@ -55,6 +55,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    implementation("com.pangle.global:ads-sdk:6.5.0.4")
+    implementation("com.google.android.gms:play-services-ads-identifier:18.0.1")
 
     // androidx-jetpack:
         // activity-compose
