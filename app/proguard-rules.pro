@@ -19,3 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Add this line to prevent ProGuard from obfuscating Pangle SDK classes
+-keep class com.bytedance.sdk.** { *; }
